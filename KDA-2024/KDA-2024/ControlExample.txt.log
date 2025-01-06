@@ -1,0 +1,19 @@
+-------------- Протокол ----------------
+Дата: 16.12.2024 02:25:29
+------------- Параметры ----------------
+-in: ControlExample.txt
+-log: ControlExample.txt.log
+-out: SIV_result.asm
+-an: ControlExample.txt.an.txt
+---------- Исходные данные -------------
+Количество символов: 826
+Проигнорировано:     0
+Количество строк:    52
+----------------------------------------
+No forbidden characters
+Tokenization :  Completed successfully
+Lexical analysis :  Completed successfully
+Syntax analysis :  Completed successfully
+Semantic analysis :  Completed successfully
+Polish notation  :  Completed successfully
+Code generation :  Completed successfully

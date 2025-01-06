@@ -1,0 +1,46 @@
+﻿Сборка начата 06.01.2025 12:54:35.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024\KDA-2024.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\KDA-2024.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\KDA-2024.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Polish.cpp
+         Polish.cpp
+     1>C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024\Polish.cpp(23,32): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+     1>C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024\Polish.cpp(23,47): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\Debug\KDA-2024.exe" /INCREMENTAL /ILK:"Debug\KDA-2024.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\Debug\KDA-2024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\Debug\KDA-2024.lib" /MACHINE:X86 Debug\CodeGeneration.obj
+         Debug\Error.obj
+         Debug\FST.obj
+         Debug\Greibach.obj
+         Debug\In.obj
+         Debug\IT.obj
+         "Debug\KDA-2024.obj"
+         Debug\LexAnalyzer.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\pch.obj
+         Debug\Polish.obj
+         Debug\Semantic.obj
+         Debug\Tokenization.obj
+         KDA-2024.vcxproj -> C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\Debug\KDA-2024.exe
+       FinalizeBuildStatus:
+         Файл "Debug\KDA-2024.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\KDA-2024.tlog\KDA-2024.lastbuildstate".
+     1>Сборка проекта "C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024\KDA-2024.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024\KDA-2024.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024\Polish.cpp(23,32): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+         C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024\Polish.cpp(23,47): warning C4838: Преобразование из "unsigned int" в "int" требует сужающего преобразования.
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.90

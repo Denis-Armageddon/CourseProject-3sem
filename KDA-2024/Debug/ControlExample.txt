@@ -1,0 +1,55 @@
+int function func(int a, int b){	
+	new int res = -1;
+	if(a<0)
+	{
+		res = abs(a);
+	}
+	else
+	{
+		res = pow(a, b);
+	}
+	return res;
+};
+
+
+main
+{		
+	new str str1 = "str1";	
+	new str str2 = "str2";
+	write "Функция сравнения строк:";
+	new int res = compare(str2, str1, "sdfhfvh");
+	write res;
+	write "Арифм. операции:";
+	new int i = 50000;
+	new int asd = 5/(i-i);
+	write asd;
+	write "Контрольный пример выражения: ";
+	i = 5*(pow(1011B,2)-B2H)+23O;		// 5*(pow(11,2)-178)+19 = -266
+	write i;
+	i = FFH + 23O;
+	write "FFH + 23O = ";
+	write i;
+
+	write "Вызов функции:";
+	new int num = func(-4, 3);
+	write num;	
+	new int num1 = 32760;
+	new int num2 = 32760;
+	num1 = num1 + num2;
+	write num1;
+	write "Условный оператор:";
+	new int c;
+	if(i == 0)
+	{
+		write "positive";	
+		c = 1;
+	}
+	else
+	{
+		write "negative";
+		c = -1;
+	}
+	write c;
+      new bool flag = false;
+	
+};

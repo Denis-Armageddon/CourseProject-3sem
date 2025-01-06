@@ -1,0 +1,29 @@
+﻿Сборка начата 26.12.2024 0:32:27.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024_LIB\KDA-2024_LIB.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\KDA-2024_LIB.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\KDA-2024_LIB.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\Debug\KDA-2024_LIB.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt KDA_lib.cpp
+         KDA_lib.cpp
+     1>C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024_LIB\KDA_lib.cpp(17,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\Debug\KDA-2024_LIB.lib" /NOLOGO /MACHINE:X86 Debug\KDA_lib.obj
+         KDA-2024_LIB.vcxproj -> C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\Debug\KDA-2024_LIB.lib
+       FinalizeBuildStatus:
+         Файл "Debug\KDA-2024_LIB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\KDA-2024_LIB.tlog\KDA-2024_LIB.lastbuildstate".
+     1>Сборка проекта "C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024_LIB\KDA-2024_LIB.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024_LIB\KDA-2024_LIB.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\денис\Desktop\лабы\KDA-2024_2.0\KDA-2024\KDA-2024_LIB\KDA_lib.cpp(17,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.60
